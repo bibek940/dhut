@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+      .container {
+        display: grid;
+        width: 748px;
+        height: 748px;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 443px 130px 155px 20px;
+      }
+
+      .red {
+        background-color: #e72f24;
+        border-right: black solid 8px;
+        border-bottom: black solid 8px;
+      }
+      .rightred1 {
+        background-color: #f0f1ec;
+        border-bottom: black solid 9px;
+      }
+      .rightred2 {
+        background-color: #f0f1ec;
+        border-bottom: black solid 9px;
+      }
+      .rightred3 {
+        background-color: #f0f1ec;
+        border-bottom: black solid 9px;
+      }
+      .belowred1 {
+        background-color: #f0f1ec;
+        border-right: black solid 9px;
+      }
+      .belowred2 {
+        background-color: #f0f1ec;
+      }
+      .belowred3 {
+        background-color: #f0f1ec;
+        border-right: black solid 9px;
+      }
+      .belowred4 {
+        background-color: #f0f1ec;
+        border-right: black solid 9px;
+      }
+      .belowred5 {
+        background-color: #f0f1ec;
+      }
+      .belowred6 {
+        background-color: #f0f1ec;
+        border-right: black solid 9px;
+      }
+      .belowred7 {
+        background-color: #f0f1ec;
+        border-top: black solid 15px;
+      }
+
+      .blue {
+        background-color: #004592;
+        height: 130px;
+      }
+
+      .leftyellow {
+        background-color: #f0f1ec;
+        border-top: black solid 9px;
+        border-right: black solid 9px;
+      }
+
+      .yellow {
+        background-color: #f9d01e;
+        border-right: black solid 9px;
+        border-top: black solid 9px;
+      }
+
+      .black {
+        background-color: black;
+        border-right: black solid 9px;
+      }
+
+      .lastwhite {
+        background-color: #f0f1ec;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="red"></div>
+      <div class="rightred1"></div>
+      <div class="rightred2"></div>
+      <div class="rightred3"></div>
+      <div class="belowred1"></div>
+      <div class="belowred2"></div>
+      <div class="belowred3"></div>
+      <div class="blue"></div>
+      <div class="belowred4"></div>
+      <div class="belowred5"></div>
+      <div class="belowred6"></div>
+      <div class="belowred7"></div>
+      <div class="leftyellow"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+      <div class="lastwhite"></div>
+    </div>
+  </body>
+</html>
